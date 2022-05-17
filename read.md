@@ -114,7 +114,7 @@ Bu adımda hata alabilirsiniz. "package already exist" tarzında bir hata mesaj�
 ./build/gnokey maketx addpkg validator --pkgpath "gno.land/r/boards" --pkgdir "examples/gno.land/r/boards" --deposit 100gnot --gas-fee 1gnot --gas-wanted 300000000 > addpkg.boards.unsigned.txt
 ./build/gnokey sign validator --txpath addpkg.boards.unsigned.txt --chainid "testchain" --number HESAP_NUMARASI --sequence SEQUENCE_NUMARASI > addpkg.boards.signed.txt
 ```
-# Bu adımda da aynı şekilde hata aldım, ancak timeout hatası. çözümünü bilmiyorum ne yazık ki. Sorunun kaynağından emin değilim.
+##### Bu adımda da aynı şekilde hata aldım, ancak timeout hatası. çözümünü bilmiyorum ne yazık ki. Sorunun kaynağından emin değilim.
 
 ```
 ./build/gnokey broadcast addpkg.boards.signed.txt --remote gno.land:36657
