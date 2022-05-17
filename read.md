@@ -16,10 +16,10 @@ https://gno.land/faucet
 
 ## Gnoland akıllı sözleşme çağrısı/isteği ile bir pano oluşturalım
 
-"PANO_İSMİ" ile belirttiğimiz kısmı istediğiniz bir isim ile değiştirin (büyük harf ve boşluk kullanmayın)
+`PANO_İSMİ` ile belirttiğimiz kısmı istediğiniz bir isim ile değiştirin (büyük harf ve boşluk kullanmayın)
 sonrasında "PANO_İSMİ" gördüğünüz her yerde şimdi gireceğiniz ismi kullanmayı unutmayın!
 ```bash
-./build/gnokey maketx call validator --pkgpath "gno.land/r/boards" --func CreateBoard --args "PANO_İSMİ" --gas-fee 1gnot --gas-wanted 3000000 > createboard.unsigned.txt
+./build/gnokey maketx call validator --pkgpath `gno.land/r/boards` --func CreateBoard --args `PANO_İSMİ` --gas-fee 1gnot --gas-wanted 3000000 > createboard.unsigned.txt
 ```
 
 #### account number ve sequence bilgilerini öğrenin
